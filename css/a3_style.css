@@ -1,0 +1,27 @@
+#topLeft{
+  float: left;
+}
+#topRight {
+  float: left;
+}
+#bottomLeft{
+  float: left;
+}
+#bottomRight {
+  float: left;
+}
+
+.even {
+  color: red;
+}
+
+.odd {
+  color: blue;
+}
+
+.clear {
+  clear: both;
+}
+.space {
+  color: white;
+}

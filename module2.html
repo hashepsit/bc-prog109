@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module 02</title>
+    <link rel="stylesheet" href="css/generic_style.css">
+      <script src="js/time-script.js"></script>
+  </head>
+  
+  <body>
+    
+    <!--Beginning of table-->
+    <table border="1">
+      <!--Row 1: Header-->
+      <thead>
+        <tr>
+          <td colspan="3">
+            <h1>HTML Table Example</h1>     
+          </td>
+        </tr>
+      </thead>
+
+      <!--Row 2-->
+      <tbody>
+      <tr>
+        <th>
+          <img src="img/imgModules/cookpic.jpg" width="528" height="413" alt="cooking utensils, cupcake">
+        </th>
+
+        <td>
+          <h2>Meal Planner</h2>
+        </td>
+
+        <td>
+          <h2>Recipe Index #:</h2>
+        </td>
+      </tr>
+
+      <!--Row 3-->
+      <tr>
+        <th>Week starting</th>
+        <th>2/15/18</th>
+        <th>Instructions</th>
+      </tr>
+
+      <!--Row 4-->
+      <tr>
+        <td>
+          <b>Day of the Week</b>
+        </td>
+        <td>
+          <b>Recipe Name</b>
+        </td>
+        <td rowspan="8">
+          <p>Add the name of the recipe under the column Recipe Name</p>
+        </td>
+      </tr>
+
+      <!--Row 5-->
+      <tr>
+        <td>
+          <p>Monday</p>
+        </td>
+        <td>
+          <p>Spinach Feta Pizza</p>
+        </td>
+      </tr>
+      
+      <!--Row 6-->
+      <tr>
+        <td>
+          <p>Tuesday</p>
+        </td>
+        <td>
+          <p>My New Recipe</p>
+        </td>
+      </tr>
+
+      <!--Row 7-->
+      <tr>
+        <td>
+          <p>Wednesday</p>
+        </td>
+        <td></td>
+      </tr>
+
+      <!--Row 8-->
+      <tr>
+        <td>
+          <p>Thursday</p>
+        </td>
+        <td></td>
+      </tr>
+      
+      <!--Row 9-->
+      <tr>
+        <td>
+          <p>Friday</p>
+        </td>
+        <td></td>
+      </tr>
+
+      <!--Row 10-->
+      <tr>
+        <td>
+          <p>Saturday</p>
+        </td>
+        <td></td>
+      </tr>
+
+      <!--Row 11-->
+      <tr>
+        <td>
+          <p>Sunday</p>
+        </td>
+        <td></td>
+      </tr>
+      </tbody>
+      
+    </table>
+    <!--End of table-->
+    <footer>
+      <span id="date_time"></span>
+    </footer>
+      
+      <script type="text/javascript">window.onload = date_time('date_time');</script>
+  </body>
+</html>

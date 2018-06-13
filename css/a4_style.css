@@ -1,0 +1,13 @@
+#errorMessages{
+  color:#ff0000;
+}
+
+.errorStyle {
+    margin-top: 0;
+    color: red;
+    font-style: italic;
+    font-size: 15px;
+}
+#bow img{
+  width: 75%;
+}

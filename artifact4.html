@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="robots" content="noindex">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/generic_style.css">
+    <link rel="stylesheet" href="css/a4_style.css">
+      <script src="js/time-script.js"></script>
+    <title>Artifact 4</title>
+  </head>
+
+  <body>
+    <h1>CONTACT US FORM</h1>
+
+    <!--Add the URL to your Thank you page -->
+    <form action="thankyou.html" method="get" onsubmit="return validateForm();">
+      <fieldset>
+        <legend>User Information</legend>
+        <label for="firstname">Enter Firstname (Max 20 characters) </label>
+        <br>
+        <input type="text" id="firstname">
+        <div id="firstNameError" class = "errorStyle"></div>
+        <br>
+
+        <label for="lastname">Enter Lastname (Max 50 characters) </label>
+        <br>
+        <input type="text" id="lastname">
+        <br>
+        <div id="lastNameError" class = "errorStyle"></div>
+        <br>
+
+
+        <label for="email">Enter Email</label>
+        <br>
+        <input type="text" id="email">
+        <br>
+        <div id="emailError" class = "errorStyle"></div>
+        <br>
+
+
+        <label for="phone">Enter Phone Number (Max 15 Characters) </label>
+        <br>
+        <input type="text" id="phone">
+        <br>
+        <div id="phoneError" class = "errorStyle"></div>
+        <br>
+
+
+        <label for="username">Enter Username (Max 12 Characters)</label>
+        <br>
+        <input type="text" maxlength="12" id="username">
+        <br>
+        <div id="usernameError" class = "errorStyle"></div>
+        <br>
+
+
+        <label for="password">Enter Password (Max 7 Characters)</label>
+        <br>
+        <input type="password" maxlength="7" id="password">
+        <div id="passwordError" class = "errorStyle"></div>
+        <br>
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+        <legend>Current Address</legend>
+        <label for="address">Enter Address</label>
+        <br>
+        <input type="text" name="address" id="address" size="50">
+        <div id="addressError" class = "errorStyle"></div>
+        <br>
+
+
+        <label for="city">Enter City</label>
+        <br>
+        <input type="text" name="city" id="city">
+        <br>
+        <div id="cityError" class = "errorStyle"></div>
+        <br>
+
+        <label for="countries">Choose Country</label>
+        <br>
+        <select id="countries">
+          <option>Canada</option>
+          <option>Mexico</option>
+          <option value="USA">United States</option>
+        </select>
+        <br>
+
+        <br>
+        <label for="zipcode">Enter zipcode</label>
+        <br>
+        <input type="text" name="zip" id="zipcode">
+        <div id="zipcodeError" class = "errorStyle"></div>
+        <br>
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+        <legend>Feel free to add comments</legend>
+        <textarea name="commentbox" id="commentbox" rows="4" cols="50"></textarea>
+      </fieldset>
+
+      <br>
+      <input id="submit" type="submit" value="Submit">
+      <input id="cancel" type="submit" value="Cancel">
+    </form>
+
+    <footer>
+      <br>
+      <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+      </a>
+      <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!">
+      </a>
+        <div>
+        <span id="date_time"></span>
+        </div>
+    </footer>
+
+    <script src="js/a4-script.js"></script>
+      <script type="text/javascript">window.onload = date_time('date_time');</script>
+  </body>
+
+</html>

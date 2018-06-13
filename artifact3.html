@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Artifact 3</title>
+      <link rel="stylesheet" href="css/generic_style.css">
+    <link rel="stylesheet" href="css/a3_style.css">
+      <script src="js/time-script.js"></script>
+  </head>
+  <body>
+    <h1>Rhombus Generator</h1>
+      <span id="date_time"></span> <br><br>
+    <label for="size">Enter a number</label><br>
+    <input id="size" type = "number" value="5"><br>
+    <label for="symbol">Enter a symbol</label><br>
+    <input id="symbol" type = "text" value = "*"><br><br>
+    <button onclick = "createRhombus(document.getElementById('size').value, document.getElementById('symbol').value);">Create Rhombus</button>
+    <hr>
+    <div id = "topLeft"></div>
+    <div id = "topRight"></div>
+    <div class = "clear"></div>
+    
+    
+    <div id = "bottomLeft"></div>
+    <div id= "bottomRight"></div>
+    <div class = "clear"></div>
+      
+    
+    <script src="js/a3-script.js"></script>
+      <script type="text/javascript">window.onload = date_time('date_time');</script>
+  </body>
+</html>

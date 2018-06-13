@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module 8</title>
+    <link rel="stylesheet" href="css/m8_style.css">
+      <script src="js/time-script.js"></script>
+  </head>
+  <body>
+    
+    <div id="page">
+      <h1 id="header">List</h1>
+      <h2>Buy groceries</h2>
+      
+      <ul id="todo">
+        <li id="one" class="hot"><em>fresh</em> figs</li>
+        <li id="two" class="hot">pine nuts</li>
+        <li id="three" class="hot">honey</li>
+        <li id="four">balsamic vinegar</li>
+      </ul>
+      
+      <input type = "text" id = "items">
+      <button id = "btnAddElement" onclick = "addItem();">Add new item</button>
+      
+      <button id = "removeButton" onclick = "deleteItem();">Delete last item</button>
+        
+    <footer>
+      <span id="date_time"></span>
+    </footer>
+      
+    </div>  
+      
+    <script src="js/m8-script.js"></script>
+    <script type="text/javascript">window.onload = date_time('date_time');</script> 
+  </body>
+</html>

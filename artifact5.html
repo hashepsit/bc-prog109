@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Artifact 5</title>
+    <link rel="stylesheet" href="css/a5_style.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/sofia" type="text/css"/>
+      <script src="js/time-script.js"></script>
+  </head>
+  
+  <body onload="timer()">
+    
+    <div class="container">
+    <h1>Wedding Dresses</h1>
+    
+      <div id = "buttons">
+        <button id = "previous">Previous slide</button>
+        <button id = "next">Next slide</button>
+        <button id = "stop">Stop slideshow</button>
+        <button id = "musicOn">Play Music</button>
+        <button id = "musicOff">Stop Music</button>
+      </div>
+      
+    <img id = "slideshow" src="images/wedding-dress1.jpg" alt="wedding dress">
+    
+      <div id = "captionBox">
+        <p id = "caption">A beautiful gold-tone silhoutte wedding dress, 
+          with a short fluffy veil. Detailed beadwork that will make this
+          dress an instant show stopper!</p>
+      </div>
+      
+      
+      <footer>
+        <br>
+        <a href="https://validator.w3.org/nu/#textarea">
+          <img style="border:0;width:88px;height:31px" src="https://www.w3.org/Icons/valid-html401" alt="Valid HTML!">
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+          <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!">
+        </a>
+          
+        <div>
+            <span id="date_time"></span>
+        </div>
+          
+      </footer>
+      
+    </div>
+      
+    <script src="js/a5-script.js"></script>
+      <script type="text/javascript">window.onload = date_time('date_time');</script>
+  </body>
+</html>

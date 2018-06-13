@@ -1,0 +1,35 @@
+body {
+  background-image: url(img/a9/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+  font-family: 'SofiaRegular'; 
+  font-weight: normal; 
+  font-style: normal; 
+  padding: 5px 25px;
+  font-size: 25px;
+  margin: 0;
+  color: #444;
+}
+
+.container {
+  text-align: center;
+}
+h1 {
+  font-size: 45px;
+}
+#buttons {
+  padding-bottom: 5px;
+}
+#slideshow {
+  border: 10px solid;
+  padding: 5px;
+}
+#captionBox {
+  margin: auto;
+  width: 450px;
+  height: 150px;
+  text-align: center;
+  
+}
