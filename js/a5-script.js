@@ -1,6 +1,6 @@
 //Arrays
 //Images
-var myImages = ["img/a9/wedding-dress1.jpg", 
+var myImages = ["https://hashepsit.github.io/bc-prog109/img/a9/wedding-dress1.jpg", 
                 "img/a9/wedding-dress2.jpg", 
                 "img/a9/wedding-dress3.jpg", 
                 "img/a9/wedding-dress4.jpg",
