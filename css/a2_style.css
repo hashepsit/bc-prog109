@@ -1,5 +1,5 @@
 body {
-  background-image:url(img/chess/leaves_bg.png);
+  background-image:url('https://hashepsit.github.io/bc-prog109/img/chess/leaves_bg.png');
   background-size:cover;
 }
 #container {
